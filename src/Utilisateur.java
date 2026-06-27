@@ -14,10 +14,16 @@ public class Utilisateur {
         this.listeLivreEmpruntee = listeLivreEmpruntee;
     }
 
-    public int getId(){ return this.idLivre;}
-    public String getTitre(){ return this.titre;}
-    public String getAuteur(){ return this.auteur;}
-    public Boolean Dispo(){ return this.estDispo;}
+    public int getIdUser(){ return this.idUser;}
+    public String getPrenom(){ return this.prenom;}
+    public String getNom(){ return this.nom;}
+
+    public void afficherLivreEmpruntee(listeLivreEmpruntee){
+        for(Livre l : listeLivreEmpruntee){
+            system.out.print(l);
+        }
+    }
+
 
     
 }
