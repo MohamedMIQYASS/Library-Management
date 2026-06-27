@@ -9,21 +9,16 @@ public class Bibliotheque {
         this.listeUtilisateurs = listeUtilisateurs;
     }
 
-    public void afficherLivres(listeLivres){
-        for(Livre l : listeLivres){
-            system.out.print(l);
+    public void afficherLivres(){
+        for(Livre l : this.listeLivres){
+            System.out.print(l);
         }
     }
 
-    public void afficherUtilisateurs(listeUtilisateurs){
-        for(Utilisateur u : listeUtilisateurs){
-            system.out.print(u);
+    public void afficherUtilisateurs(){
+        for(Utilisateur u : this.listeUtilisateurs){
+            System.out.print(u);
         }
     }
 
-
-
-
-
-    
 }
