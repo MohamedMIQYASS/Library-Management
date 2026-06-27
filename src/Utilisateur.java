@@ -17,7 +17,7 @@ public class Utilisateur {
     public int getIdUser(){ return this.idUser;}
     public String getPrenom(){ return this.prenom;}
     public String getNom(){ return this.nom;}
-
+    
     public void afficherLivreEmpruntee(listeLivreEmpruntee){
         for(Livre l : listeLivreEmpruntee){
             system.out.print(l);
@@ -27,3 +27,4 @@ public class Utilisateur {
 
     
 }
+
